@@ -11,7 +11,7 @@ class App extends React.Component {
   getFetch() {
     const app_id = process.env.APP_ID;
     console.log(app_id);
-    console.log(process.env);
+    console.log(process);
     const app_key = process.env.APP_KEY;
     const baseName = "Books";
 
