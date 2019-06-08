@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
@@ -10,6 +10,8 @@ class App extends React.Component {
 
   getFetch() {
     const app_id = process.env.APP_ID;
+    console.log(app_id);
+    console.log(process.env);
     const app_key = process.env.APP_KEY;
     const baseName = "Books";
 
